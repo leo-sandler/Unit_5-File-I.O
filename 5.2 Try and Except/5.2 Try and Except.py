@@ -28,10 +28,10 @@ try:
 except TypeError:
     print("You can't do that")
 
-# Task 4: Create a list with 3 things in it, try to access at index 5
+# Task 4: Create a list with 3 things in it, try to access at index 6
 # add 3 more things to the list when you catch your error]
-list = ["1", "2", "3"]
+listy = ["1", "2", "3"]
 try:
-    print(list[5])
-except:
+    print(listy[5])
+except IndexError:
     print("You can't do that!")
