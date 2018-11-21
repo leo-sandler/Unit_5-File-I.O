@@ -40,6 +40,6 @@ print("Task 5")
 list_opening = open("November20.txt", "r")
 a = list_opening.readlines()
 for x in a:
-    print(x, end="") # prints ever other, because print creates a new line, eng negates it
+    print(x, end="")  # prints ever other, because print creates a new line, eng negates it
 
 
